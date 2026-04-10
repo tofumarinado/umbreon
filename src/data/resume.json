@@ -2,7 +2,7 @@
   "personal": {
     "name": "Víctor Enrique Alcázar López",
     "title": "Full Stack Developer",
-    "location": "Lérida y alrededores",
+    "location": "Lleida and surroundings",
     "contact": {
       "email": "victorenriquealcazar@gmail.com",
       "phone": "+34 688895746",
@@ -59,13 +59,13 @@
     "Websalpunt.cat web development award",
     "Bachillerato with honors",
     "Smart People with Smart Ideas International Award",
-    "Ganador en categoria Android del Primer Hackathon organizado en Lleida"
+    "Winner in Android category at the First Hackathon organized in Lleida"
   ],
   "experience": [
     {
       "company": "LTS Beratung",
       "position": "Full Stack Developer",
-      "startDate": "noviembre de 2023",
+      "startDate": "November 2023",
       "endDate": "Present",
       "location": "",
       "description": ""
@@ -73,81 +73,81 @@
     {
       "company": "Technology Delivery Center Barcelona - ServiZurich",
       "position": "Application Subject Matter Consultant",
-      "startDate": "enero de 2022",
-      "endDate": "noviembre de 2023",
+      "startDate": "January 2022",
+      "endDate": "November 2023",
       "location": "Barcelona, Catalonia, Spain",
       "description": "Working with the Service Management team in conjunction with the Development team of the Data Analysis branch of Servi Zurich.\nMy job consists of delivering operational infrastructure and support to the development team and the end users.\nThe technologies used for my position are React, Git, .NET and Azure."
     },
     {
       "company": "Applied Viability - AV Group",
       "position": "React Developer",
-      "startDate": "marzo de 2021",
-      "endDate": "enero de 2022",
+      "startDate": "March 2021",
+      "endDate": "January 2022",
       "location": "Greater Barcelona Metropolitan Area",
       "description": "Working as a React Developer for AVGroup, performing services for ServiZurich, the technological branch of Zurich Insurance Corporation."
     },
     {
       "company": "Ei Community",
       "position": "Digital Interaction Lead",
-      "startDate": "abril de 2020",
-      "endDate": "marzo de 2021",
+      "startDate": "April 2020",
+      "endDate": "March 2021",
       "location": "",
       "description": "Contract work for AR / VR experience development for Ei Community. Currently developing next-gen retail consumer experiences for high-end customers."
     },
     {
       "company": "LTS Beratung GmbH",
       "position": "Java Developer",
-      "startDate": "noviembre de 2018",
-      "endDate": "abril de 2020",
+      "startDate": "November 2018",
+      "endDate": "April 2020",
       "location": "Barcelona Area, Spain",
-      "description": "Working as a freelance developer for LTS Beratung. Mainly, what i'm doing here consists of backend work with Java. I worked with the following technologies: Java, Postman, Elasticsearch, Kibana, JIRA, SonarQube, Jenkins, Docker, Kubernetes, Confluence."
+      "description": "Working as a freelance developer for LTS Beratung. Mainly, what I'm doing here consists of backend work with Java. I worked with the following technologies: Java, Postman, Elasticsearch, Kibana, JIRA, SonarQube, Jenkins, Docker, Kubernetes, Confluence."
     },
     {
       "company": "Egara Optiminn",
       "position": ".NET Developer",
-      "startDate": "septiembre de 2018",
-      "endDate": "noviembre de 2018",
+      "startDate": "September 2018",
+      "endDate": "November 2018",
       "location": "Terrassa, Catalonia, Spain",
       "description": "Developed web applications built with a .NET, MongoDB, Angular.js, Azure and SQL based stack."
     },
     {
       "company": "E-TIC Sistemes",
       "position": "Java Developer",
-      "startDate": "junio de 2018",
-      "endDate": "septiembre de 2018",
+      "startDate": "June 2018",
+      "endDate": "September 2018",
       "location": "Barcelona Area, Spain",
       "description": "I worked as a junior developer for e-tic sistemas at Grupo Godó. My responsibilities here were working on the editorial software Mundo Deportivo's writers are using, based on Java7. Technologies used: Java 7, Apache Velocity, Eidos Media Méthode, Jenkins, Jira, Gitlab."
     },
     {
       "company": "VGA FIB",
       "position": "Unity 3d Teacher",
-      "startDate": "febrero de 2018",
-      "endDate": "febrero de 2018",
-      "location": "Barcelona y alrededores, España",
+      "startDate": "February 2018",
+      "endDate": "February 2018",
+      "location": "Barcelona and surroundings, Spain",
       "description": "Teacher at a 2-week (60 hours) winter break course about advanced game development with Unity. I taught concepts like Game Design, Project Management, AMVCC pattern, Shaders, Mobile Market, Editor Tools, etc."
     },
     {
       "company": "Tiendeo",
       "position": ".NET Developer",
-      "startDate": "junio de 2017",
-      "endDate": "septiembre de 2017",
+      "startDate": "June 2017",
+      "endDate": "September 2017",
       "location": "Barcelona Area, Spain",
       "description": "Summer internship. Expanded existing functionalities of Tiendeo's API using C# and Postman. Added new functions to Analytics service. Created bases for a new PDF-parsing and uploading service. Developed a Visual Studio extension using C#."
     },
     {
       "company": "IRTA",
       "position": "Visual Basic Developer",
-      "startDate": "agosto de 2016",
-      "endDate": "septiembre de 2016",
-      "location": "Lleida, España",
+      "startDate": "August 2016",
+      "endDate": "September 2016",
+      "location": "Lleida, Spain",
       "description": "Internship at the Institute of Research and Agrifood Technologies. Programmed Excel macros using Visual Basic and assisted laboratory personnel."
     },
     {
       "company": "Feeling Projects SL",
       "position": "Product Designer",
-      "startDate": "septiembre de 2013",
-      "endDate": "septiembre de 2014",
-      "location": "Lleida, España",
+      "startDate": "September 2013",
+      "endDate": "September 2014",
+      "location": "Lleida, Spain",
       "description": "Game development using Unity3D and C#. Took the majority of Product Design decisions alongside the founder. Participated in the development and design of 4 different projects."
     }
   ],

@@ -132,13 +132,13 @@
   "education": [
     {
       "institution": "Universitat Politècnica de Catalunya",
-      "degree": "Grado en Ingeniería, Ingeniería informática",
+      "degree": "Bachelor's Degree in Computer Science",
       "startDate": "2014",
       "endDate": "2018"
     },
     {
       "institution": "INS Manuel de Montsuar",
-      "degree": "Bachelor of Technology (BTech), Engineering Technology, General",
+      "degree": "High School Diploma (Technological Baccalaureate)",
       "startDate": "2008",
       "endDate": "2014"
     }

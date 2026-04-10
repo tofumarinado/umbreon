@@ -1,0 +1,234 @@
+Contactar
+688895746 (Mobile)
+victorenriquealcazar@gmail.
+com
+
+www.linkedin.com/in/victorenrique
+(LinkedIn)
+github.com/vikepic (Portfolio)
+
+Aptitudes principales
+C#
+Full-Stack Development
+Java
+
+Languages
+Spanish (Native or Bilingual)
+English (Full Professional)
+Catalan (Native or Bilingual)
+German (Elementary)
+
+Certifications
+Prompt Engineering for ChatGPT
+
+Víctor Enrique Alcázar López
+Full Stack developer at LTS Beratung
+Lérida y alrededores
+
+Extracto
+Hey! You can take a look at my work at vikepic.com
+My name is Víctor and I love technology and creating stuff with it.
+I made several videogames and participated in numerous
+hackathons and game jams during my student life. I love talking
+about computer stuff and science.
+I am also involved in social justice issues, such as women's
+presence in tech and other issues that i hold very important to me.
+I like to work with proactive and open-minded people. I consider
+myself a very social person: I'm always up for grabbing a coffee and
+talk with interesting people!
+
+ITIL® 4 Foundation
+Introduction to Microsoft Azure Cloud
+Services
+Azure Devops: Introduction to CI/CD
+with Visual Studio
+
+Honors-Awards
+Websalpunt.cat web development
+award
+Bachillerato with honors
+Smart People with Smart Ideas
+International Award
+Ganador en categoria Android del
+Primer Hackathon organizado en
+Lleida
+
+Experiencia
+LTS Beratung
+Full Stack Developer
+
+noviembre de 2023 - Present (2 años 6 meses)
+
+Technology Delivery Center Barcelona - ServiZurich
+Application Subject Matter Consultant
+enero de 2022 - noviembre de 2023 (1 año 11 meses)
+Barcelona, Catalonia, Spain
+
+Working with the Service Management team in conjunction with the
+Development team of the Data Analysis branch of Servi Zurich.
+
+Logitech main prize
+My job consists of delivering operational infrastructure and support to the
+development team and the end users.
+The technologies used for my position are React, Git, .NET and Azure.
+
+Page 1 of 6
+
+Applied Viability - AV Group
+React Developer
+
+marzo de 2021 - enero de 2022 (11 meses)
+Greater Barcelona Metropolitan Area
+Working as a React Developer for AVGroup, performing services for
+ServiZurich, the technological branch of Zurich Insurance Corporation.
+
+Ei Community
+Digital Interaction Lead
+
+abril de 2020 - marzo de 2021 (1 año)
+Contract work for AR / VR experience development for Ei Community.
+Currently developing next-gen retail consumer experiences for high-end
+customers.
+
+LTS Beratung GmbH
+Java Developer
+
+noviembre de 2018 - abril de 2020 (1 año 6 meses)
+Barcelona Area, Spain
+Working as a freelance developer for LTS Beratung.
+Mainly, what i'm doing here consists of backend work with Java.
+I worked with the following technologies:
+· Java
+· Postman
+· Elasticsearch
+· Kibana
+· JIRA
+· SonarQube
+· Jenkins
+· Docker
+· Kubernetes
+· Confluence
+I took courses on:
+· Docker
+· Kubernetes
+· Azure
+
+Egara Optiminn
+.NET Developer
+Page 2 of 6
+
+septiembre de 2018 - noviembre de 2018 (3 meses)
+Terrassa, Catalonia, Spain
+Developed web applications built with a .NET, MongoDB, Angular.js, Azure
+and SQL based stack
+Other technologies i was involved in were:
+• Windows Server
+• Azure DevOps
+
+E-TIC Sistemes
+Java Developer
+
+junio de 2018 - septiembre de 2018 (4 meses)
+Barcelona Area, Spain
+I worked as a junior developer for e-tic sistemas at Grupo Godó.
+My responsibilities here were working on the editorial software Mundo
+Deportivo's writers are using, based on Java7.
+Technologies I used while working for Grupo Godó's Mundo Deportivo Web:
+• Java 7
+• Apache Velocity
+• Eidos Media Méthode
+• JST and JSTL
+• Jenkins
+• Jira
+• Gitlab
+I recieved training in
+• Git / git flow (2 hrs)
+• Data Science (2 hrs)
+I helped training the team in
+• Vi/Vim Editor (2 hrs)
+
+VGA FIB
+Unity 3d Teacher
+
+febrero de 2018 - febrero de 2018 (1 mes)
+Barcelona y alrededores, España
+Page 3 of 6
+
+Teacher at a 2-week (60 hours) winter break course about advanced game
+development with Unity.
+I taught the following concepts about game development to my students during
+the course:
+• Game Design
+• Game Development Team and Project Management
+• Collaborative work in Unity (Git and Unity Collab)
+• AMVCC (Application Model View Component Controller) code pattern for
+Unity
+• Shaders
+• External tool integration (SketchUp, Blender)
+• Unity Multiplatform development
+• Mobile Market (IAP, UnityAds)
+• Basic FPS development
+• Editor Tools
+• ScriptableObjects
+• Serialization / IO
+Attached to this post there can be found screenshots of the final projects of the
+students
+
+Tiendeo
+.NET Developer
+
+junio de 2017 - septiembre de 2017 (4 meses)
+Barcelona Area, Spain
+I did a summer internship at Tiendeo, worked with some great people and
+learned a lot through the process.
+Page 4 of 6
+
+During my stay there i worked in several projects:
+• Expand the existing functionalities of Tiendeo's API using C# and Postman
+• Added new functions to Tiendeo's Analytics service built in .NET
+• Created the basis for a new PDF-parsing and uploading service refactored
+from legacy code using .NET
+• Developed a Visual Studio extension using C# that enables developers to
+work faster by providing useful code snippets for the design patterns in use at
+the time
+• Participated in the Tiendeo JajaThon, a design challenge to build
+the best product and create a marketing campaing for it during a
+workday the finished campaign can be found at: https://twitter.com/i/
+moments/880806537173839872
+
+IRTA
+Visual Basic Developer
+
+agosto de 2016 - septiembre de 2016 (2 meses)
+Lleida, España
+Internsip at the Institute of Research and Agrifood Technologies. My work
+there consisted on programming a series of Excel macros using Visual Basic
+and assisting the laboratory personnel with sorting and organizing samples.
+
+Feeling Projects SL
+Product Designer
+
+septiembre de 2013 - septiembre de 2014 (1 año 1 mes)
+Lleida, España
+An IT startup a friend of mine founded. I had a great time in there, and had the
+pleasure to work with highly motivated and passionate people. Some of the
+tasks i performed there were:
+• Game development using Unity3D and C#
+• Took the majority of Product Design decisions alongside with the founder
+
+Page 5 of 6
+
+• Participated in the development and design of 4 different projects, learning a
+lot from each one of them
+
+Educación
+Universitat Politècnica de Catalunya
+Grado en Ingeniería, Ingeniería informática · (2014 - 2018)
+
+INS Manuel de Montsuar
+Bachelor of Technology (BTech), Engineering Technology,
+General · (2008 - 2014)
+
+Page 6 of 6
+
+

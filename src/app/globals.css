@@ -39,3 +39,38 @@ body {
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to right, var(--color-brand-pink), var(--color-brand-purple), var(--color-brand-cyan));
 }
+
+
+/* =========================================
+   PRINT VIEW OVERRIDES
+   ========================================= */
+@media print {
+  @page { margin: 0; size: A4 portrait; }
+  
+  html {
+    background-color: #0f172a !important; 
+    height: 100% !important;
+    min-height: 100% !important;
+  }
+
+  body, html {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color: #f8fafc !important;
+  }
+
+  /* Force all framer-motion elements to immediately appear */
+  * {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  /* Ensure text gradients still render correctly on PDF */
+  .text-gradient {
+    -webkit-text-fill-color: transparent !important;
+  }
+
+  /* Prevent awkward page breaks */
+  h1, h2, h3 { break-after: avoid !important; }
+  .group, .grid > div { break-inside: avoid !important; }
+}

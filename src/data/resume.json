@@ -1,8 +1,8 @@
 {
   "personal": {
     "name": "Víctor Enrique Alcázar López",
-    "title": "Full Stack Developer",
-    "location": "Lleida and surroundings",
+    "title": "Full Stack & AI Engineer",
+    "location": "Girona Area, Spain",
     "contact": {
       "email": "victorenriquealcazar@gmail.com",
       "phone": "+34 688895746",
@@ -14,22 +14,21 @@
   },
   "skills": [
     "C#",
-    "Full-Stack Development",
-    "Java",
-    "MongoDB",
-    "Angular.js",
-    "Azure",
-    "SQL",
     "React",
-    "Git",
     ".NET",
-    "Postman",
-    "Elasticsearch",
-    "Kibana",
-    "Jenkins",
+    "Java",
+    "Generative AI / LLMs",
+    "Prompt Engineering",
+    "Full-Stack Architecture",
+    "Azure",
     "Docker",
     "Kubernetes",
-    "Unity 3D"
+    "MongoDB",
+    "SQL",
+    "Elasticsearch",
+    "Jenkins",
+    "Git",
+    "Postman"
   ],
   "languages": [
     {
@@ -63,68 +62,52 @@
   ],
   "experience": [
     {
-      "company": "LTS Beratung",
-      "position": "Full Stack Developer",
+      "company": "Mercedes-Benz (via LTS Beratung)",
+      "position": "AI Technical Lead & Full Stack Developer",
       "startDate": "November 2023",
       "endDate": "Present",
-      "location": "",
-      "description": ""
+      "location": "Barcelona Area, Spain (Remote)",
+      "description": "Spearheaded an innovative AI initiative for Mercedes-Benz, leading the technical architecture and prototype development. Following external contractor reductions at Mercedes-Benz, transitioned to an internal role at LTS Beratung to restructure and modernize enterprise documentation systems utilizing Large Language Models (LLMs) and advanced prompt engineering."
     },
     {
-      "company": "Technology Delivery Center Barcelona - ServiZurich",
-      "position": "Application Subject Matter Consultant",
-      "startDate": "January 2022",
-      "endDate": "November 2023",
-      "location": "Barcelona, Catalonia, Spain",
-      "description": "Working with the Service Management team in conjunction with the Development team of the Data Analysis branch of Servi Zurich.\nMy job consists of delivering operational infrastructure and support to the development team and the end users.\nThe technologies used for my position are React, Git, .NET and Azure."
-    },
-    {
-      "company": "Applied Viability - AV Group",
-      "position": "React Developer",
+      "company": "Zurich Insurance Group",
+      "position": "Application Subject Matter Consultant & React Developer",
       "startDate": "March 2021",
-      "endDate": "January 2022",
-      "location": "Greater Barcelona Metropolitan Area",
-      "description": "Working as a React Developer for AVGroup, performing services for ServiZurich, the technological branch of Zurich Insurance Corporation."
+      "endDate": "November 2023",
+      "location": "Barcelona Area, Spain (Remote)",
+      "description": "Initially hired externally through AV Group before successfully transitioning to an internal role at ServiZurich (the technological branch of Zurich). Worked with the Service Management team alongside the Data Analysis Development team. Delivered operational infrastructure and support to development teams and end-users. Built applications and tools utilizing React, Git, .NET, and Azure."
     },
     {
-      "company": "Ei Community",
-      "position": "Digital Interaction Lead",
+      "company": "Mohamed Hilal Group (via Ei Community)",
+      "position": "Digital Interaction & Lead Developer",
       "startDate": "April 2020",
       "endDate": "March 2021",
-      "location": "",
-      "description": "Contract work for AR / VR experience development for Ei Community. Currently developing next-gen retail consumer experiences for high-end customers."
+      "location": "Dubai, UAE (Remote)",
+      "description": "Developed localized, next-generation immersive experiences for the high-end retail MENA market. Engineered gamified AR/VR test simulations designed to build sophisticated psychological profiles of consumers, integrating early-stage AI concepts to tailor luxury buyer journeys."
     },
     {
-      "company": "LTS Beratung GmbH",
-      "position": "Java Developer",
+      "company": "Mercedes-Benz (via LTS Beratung)",
+      "position": "Java Backend Developer",
       "startDate": "November 2018",
       "endDate": "April 2020",
-      "location": "Barcelona Area, Spain",
-      "description": "Working as a freelance developer for LTS Beratung. Mainly, what I'm doing here consists of backend work with Java. I worked with the following technologies: Java, Postman, Elasticsearch, Kibana, JIRA, SonarQube, Jenkins, Docker, Kubernetes, Confluence."
+      "location": "Barcelona Area, Spain (Remote)",
+      "description": "Developed and maintained backend services as an external consultant for Mercedes-Benz. Operated in a modern DevOps and microservices environment utilizing Java, Docker, Kubernetes, Jenkins, and the ELK stack (Elasticsearch, Kibana)."
     },
     {
       "company": "Egara Optiminn",
       "position": ".NET Developer",
       "startDate": "September 2018",
       "endDate": "November 2018",
-      "location": "Terrassa, Catalonia, Spain",
+      "location": "Barcelona Area, Spain",
       "description": "Developed web applications built with a .NET, MongoDB, Angular.js, Azure and SQL based stack."
     },
     {
-      "company": "E-TIC Sistemes",
+      "company": "Mundo Deportivo (via E-TIC Sistemes)",
       "position": "Java Developer",
       "startDate": "June 2018",
       "endDate": "September 2018",
       "location": "Barcelona Area, Spain",
-      "description": "I worked as a junior developer for e-tic sistemas at Grupo Godó. My responsibilities here were working on the editorial software Mundo Deportivo's writers are using, based on Java7. Technologies used: Java 7, Apache Velocity, Eidos Media Méthode, Jenkins, Jira, Gitlab."
-    },
-    {
-      "company": "VGA FIB",
-      "position": "Unity 3d Teacher",
-      "startDate": "February 2018",
-      "endDate": "February 2018",
-      "location": "Barcelona and surroundings, Spain",
-      "description": "Teacher at a 2-week (60 hours) winter break course about advanced game development with Unity. I taught concepts like Game Design, Project Management, AMVCC pattern, Shaders, Mobile Market, Editor Tools, etc."
+      "description": "Developed and maintained the core editorial publishing software utilized by sports journalists at Mundo Deportivo (Grupo Godó). Acquired domain knowledge in digital press, high-traffic media architectures, and editorial workflows. Technologies used: Java 7, Apache Velocity, EidosMedia Méthode, Jenkins, Jira, Gitlab."
     },
     {
       "company": "Tiendeo",
@@ -133,22 +116,6 @@
       "endDate": "September 2017",
       "location": "Barcelona Area, Spain",
       "description": "Summer internship. Expanded existing functionalities of Tiendeo's API using C# and Postman. Added new functions to Analytics service. Created bases for a new PDF-parsing and uploading service. Developed a Visual Studio extension using C#."
-    },
-    {
-      "company": "IRTA",
-      "position": "Visual Basic Developer",
-      "startDate": "August 2016",
-      "endDate": "September 2016",
-      "location": "Lleida, Spain",
-      "description": "Internship at the Institute of Research and Agrifood Technologies. Programmed Excel macros using Visual Basic and assisted laboratory personnel."
-    },
-    {
-      "company": "Feeling Projects SL",
-      "position": "Product Designer",
-      "startDate": "September 2013",
-      "endDate": "September 2014",
-      "location": "Lleida, Spain",
-      "description": "Game development using Unity3D and C#. Took the majority of Product Design decisions alongside the founder. Participated in the development and design of 4 different projects."
     }
   ],
   "education": [

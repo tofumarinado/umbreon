@@ -8,8 +8,8 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: 'Víctor Enrique | Full Stack Developer',
-  description: 'Portfolio and Resume of Víctor Enrique Alcázar López',
+  title: 'Víctor Alcázar | Full Stack & AI Engineer',
+  description: 'Portfolio and Resume of Víctor Alcázar',
 };
 
 export default function RootLayout({

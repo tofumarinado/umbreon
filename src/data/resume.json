@@ -1,6 +1,6 @@
 {
   "personal": {
-    "name": "Víctor Enrique Alcázar López",
+    "name": "Víctor Alcázar",
     "title": "Full Stack & AI Engineer",
     "location": "Girona Area, Spain",
     "contact": {
@@ -10,7 +10,7 @@
       "portfolio": "vikepic.com",
       "github": "github.com/vikepic"
     },
-    "summary": "Hey! You can take a look at my work at vikepic.com\nMy name is Víctor and I love technology and creating stuff with it.\nI made several videogames and participated in numerous hackathons and game jams during my student life. I love talking about computer stuff and science.\nI am also involved in social justice issues, such as women's presence in tech and other issues that i hold very important to me.\nI like to work with proactive and open-minded people. I consider myself a very social person: I'm always up for grabbing a coffee and talk with interesting people!"
+    "summary": "Detail-oriented Full Stack & AI Engineer with over 6 years of enterprise experience spanning cloud infrastructure, backend services, and modern web applications. Proven track record of architecting scalable systems and leading technical initiatives for global entities such as Mercedes-Benz and Zurich Insurance Group. Specializes in C#, React, Java, Azure, and integrating state-of-the-art technologies like Large Language Models (LLMs) into production architectures."
   },
   "skills": [
     "C#",
@@ -55,15 +55,26 @@
     "Azure Devops: Introduction to CI/CD with Visual Studio"
   ],
   "awards": [
-    "Websalpunt.cat web development award",
-    "Bachillerato with honors",
-    "Smart People with Smart Ideas International Award",
-    "Winner in Android category at the First Hackathon organized in Lleida"
+    {
+      "title": "Logitech Main Prize – START Hack",
+      "year": "2017",
+      "description": "Awarded for Best VR Project utilizing Oculus Rift"
+    },
+    {
+      "title": "Smart People with Smart Ideas International Award",
+      "year": "2014",
+      "description": "€2,000 innovation grant recipient awarded by Lleida City Council"
+    },
+    {
+      "title": "Full Academic Scholarship to UPC",
+      "year": "2014",
+      "description": "Awarded for graduating Valedictorian / Top of Class with 9.15 GPA"
+    }
   ],
   "experience": [
     {
       "company": "Mercedes-Benz (via LTS Beratung)",
-      "position": "AI Technical Lead & Full Stack Developer",
+      "position": "AI Technical Lead & DevOps Engineer",
       "startDate": "November 2023",
       "endDate": "Present",
       "location": "Barcelona Area, Spain (Remote)",
@@ -71,11 +82,11 @@
     },
     {
       "company": "Zurich Insurance Group",
-      "position": "Application Subject Matter Consultant & React Developer",
+      "position": "IT Operations Manager & React Developer",
       "startDate": "March 2021",
       "endDate": "November 2023",
       "location": "Barcelona Area, Spain (Remote)",
-      "description": "Initially hired externally through AV Group before successfully transitioning to an internal role at ServiZurich (the technological branch of Zurich). Worked with the Service Management team alongside the Data Analysis Development team. Delivered operational infrastructure and support to development teams and end-users. Built applications and tools utilizing React, Git, .NET, and Azure."
+      "description": "Initially hired externally through AV Group before successfully transitioning to an internal role at ServiZurich (the technological branch of Zurich). Acted as an ITIL Change Manager for the Service Management team alongside the Data Analysis Development team. Directed deployment lifecycles, delivered operational infrastructure, and supported end-users. Built internal applications and tools utilizing React, Git, .NET, and Azure."
     },
     {
       "company": "Mohamed Hilal Group (via Ei Community)",

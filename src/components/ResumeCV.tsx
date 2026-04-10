@@ -40,15 +40,21 @@ export function ResumeCV() {
           </h1>
           
           <div className="pt-4 flex flex-wrap gap-4 items-center justify-center md:justify-start text-slate-300 text-sm md:text-base">
-            <a href={`mailto:${resumeData.personal.contact.email}`} className="flex items-center gap-2 hover:text-white transition-colors flat-card px-4 py-2 rounded-md flat-card-hover">
-              <Mail className="w-4 h-4 text-brand-pink" /> {resumeData.personal.contact.email}
-            </a>
-            <div className="flex items-center gap-2 flat-card px-4 py-2 rounded-md">
-              <Phone className="w-4 h-4 text-brand-purple" /> {resumeData.personal.contact.phone}
-            </div>
-            <div className="flex items-center gap-2 flat-card px-4 py-2 rounded-md">
-              <MapPin className="w-4 h-4 text-brand-cyan" /> {resumeData.personal.location}
-            </div>
+            {resumeData.personal.contact.email && (
+              <a href={`mailto:${resumeData.personal.contact.email}`} className="flex items-center gap-2 hover:text-white transition-colors flat-card px-4 py-2 rounded-md flat-card-hover">
+                <Mail className="w-4 h-4 text-brand-pink" /> {resumeData.personal.contact.email}
+              </a>
+            )}
+            {resumeData.personal.contact.phone && (
+              <div className="flex items-center gap-2 flat-card px-4 py-2 rounded-md">
+                <Phone className="w-4 h-4 text-brand-purple" /> {resumeData.personal.contact.phone}
+              </div>
+            )}
+            {resumeData.personal.location && (
+              <div className="flex items-center gap-2 flat-card px-4 py-2 rounded-md">
+                <MapPin className="w-4 h-4 text-brand-cyan" /> {resumeData.personal.location}
+              </div>
+            )}
             <a href={`https://${resumeData.personal.contact.linkedin}`} target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-white transition-colors flat-card px-4 py-2 rounded-md flat-card-hover">
               <ExternalLink className="w-4 h-4 text-brand-blue" /> LinkedIn
             </a>
@@ -179,10 +185,17 @@ export function ResumeCV() {
               </div>
               <div>
                 <h3 className="text-xs uppercase tracking-widest text-slate-400 font-bold mb-3 border-b border-slate-700 pb-2">Awards</h3>
-                <ul className="space-y-2 mt-3">
+                <ul className="space-y-4 mt-3">
                   {resumeData.awards.map((award, i) => (
-                    <li key={i} className="text-sm text-slate-200 flex items-start gap-2 font-medium">
-                      <span className="text-brand-pink mt-1">■</span> {award}
+                    <li key={i} className="text-sm flex items-start gap-2">
+                      <span className="text-brand-pink mt-0.5 shrink-0">■</span>
+                      <div className="w-full">
+                        <div className="flex justify-between items-start gap-2 mb-1.5">
+                          <span className="text-slate-200 font-bold leading-tight">{award.title}</span>
+                          {award.year && <span className="text-brand-cyan text-xs font-mono font-bold mt-0.5">{award.year}</span>}
+                        </div>
+                        <div className="text-slate-400 text-xs leading-relaxed">{award.description}</div>
+                      </div>
                     </li>
                   ))}
                 </ul>

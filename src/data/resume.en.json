@@ -1,4 +1,13 @@
 {
+  "ui": {
+    "about": "About Me",
+    "skills": "Core Technologies",
+    "experience": "Experience",
+    "education": "Education",
+    "achievements": "Achievements",
+    "certifications": "Certifications",
+    "awards": "Awards"
+  },
   "personal": {
     "name": "Víctor Alcázar",
     "title": "DevOps & AI Engineer",

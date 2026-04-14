@@ -1,0 +1,319 @@
+{
+  "ui": {
+    "about": "Sobre Mí",
+    "skills": "Tecnologías Principales",
+    "experience": "Experiencia Profesional",
+    "education": "Educación",
+    "achievements": "Logros",
+    "certifications": "Certificaciones",
+    "awards": "Premios"
+  },
+  "personal": {
+    "name": "Víctor Alcázar",
+    "title": "Ingeniero DevOps e IA",
+    "location": "Girona, España",
+    "contact": {
+      "email": "",
+      "phone": "",
+      "linkedin": "www.linkedin.com/in/victorenrique",
+      "portfolio": "tofumarinado.github.io/umbreon",
+      "github": "github.com/tofumarinado"
+    },
+    "summary": "Ingeniero DevOps e IA con más de 8 años de experiencia empresarial abarcando infraestructura cloud, servicios backend y aplicaciones web modernas.\nHistorial comprobado en la arquitectura de sistemas escalables de DevOps y microservicios, y liderando iniciativas técnicas para entidades globales como Mercedes-Benz y Zurich Insurance Group.\nEspecializado en C#, React, Java, Azure, y en la integración de tecnologías de última generación como Large Language Models (LLMs) e IA Generativa en arquitecturas de producción.\nDedicado al código limpio, metodologías Ágiles y pipelines de Integración / Entrega Continua (CI/CD)."
+  },
+  "languages": [
+    {
+      "name": "Español",
+      "proficiency": "Nativo o Bilingüe"
+    },
+    {
+      "name": "Catalán",
+      "proficiency": "Nativo o Bilingüe"
+    },
+    {
+      "name": "Inglés",
+      "proficiency": "Competencia Profesional Completa"
+    },
+    {
+      "name": "Alemán",
+      "proficiency": "Básico"
+    }
+  ],
+  "certifications": [
+    "Prompt Engineering for ChatGPT",
+    "ITIL® 4 Foundation",
+    "Introduction to Microsoft Azure Cloud Services",
+    "Azure DevOps: Introduction to CI/CD with Visual Studio"
+  ],
+  "awards": [
+    {
+      "title": "Premio Principal Logitech – START Hack",
+      "year": "2017",
+      "description": "Premiado por el Mejor Proyecto de VR utilizando Oculus Rift"
+    },
+    {
+      "title": "Premio Internacional Smart People with Smart Ideas",
+      "year": "2014",
+      "description": "Beneficiario de subvención a la innovación de 2.000€ otorgada por el Ayuntamiento de Lleida"
+    },
+    {
+      "title": "Beca Académica Completa para la UPC",
+      "year": "2014",
+      "description": "Otorgada por graduarse en bachillerato tecnológico con una de las mejores notas de su promoción con promedio de 9.15"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Mercedes-Benz (vía LTS Beratung)",
+      "position": "AI Technical Lead y DevOps Engineer",
+      "startDate": "Noviembre 2023",
+      "endDate": "Actualidad",
+      "location": "Área de Barcelona, España (Remoto)",
+      "description": "• Dirigí una innovadora iniciativa de IA para Mercedes-Benz, liderando la arquitectura técnica y el desarrollo de prototipos.\n• Reestructuré y modernicé sistemas de documentación empresarial, utilizando Large Language Models (LLMs) y técnicas avanzadas de prompt engineering.\n• Desplegué soluciones escalables de IA Generativa basadas en Python mediante Docker y Kubernetes.",
+      "skills": [
+        {
+          "name": "Machine Learning (ML)",
+          "years": 1.5
+        },
+        {
+          "name": "Artificial Intelligence (AI)",
+          "years": 1.5
+        },
+        {
+          "name": "Python",
+          "years": 2.5
+        },
+        {
+          "name": "Bash scripting",
+          "years": 2.5
+        },
+        {
+          "name": "Docker",
+          "years": 2.5
+        },
+        {
+          "name": "Kubernetes",
+          "years": 2.5
+        },
+        {
+          "name": "Ansible",
+          "years": 2.5
+        },
+        {
+          "name": "Cloud Computing",
+          "years": 2.5
+        },
+        {
+          "name": "CI/CD",
+          "years": 2.5
+        },
+        {
+          "name": "TypeScript / JavaScript",
+          "years": 2.5
+        },
+        {
+          "name": "AWS",
+          "years": 2.5
+        },
+        {
+          "name": "DevOps",
+          "years": 2.5
+        }
+      ]
+    },
+    {
+      "company": "Zurich Insurance Group",
+      "position": "IT Operations Manager y React Developer",
+      "startDate": "Marzo 2021",
+      "endDate": "Noviembre 2023",
+      "location": "Área de Barcelona, España (Remoto)",
+      "description": "• Construí y mantuve 2 aplicaciones y herramientas internas utilizando React y TypeScript / JavaScript, acelerando los flujos diarios para más de 100 usuarios.\n• Ejercí como Gestor de Cambios ITIL para el equipo de Gestión de Servicios junto al equipo de Desarrollo.\n• Dirigí ciclos de vida de despliegue, entregué infraestructura operativa y ayudé a reducir tiempos de resolución en tickets de soporte.",
+      "skills": [
+        {
+          "name": "React",
+          "years": 2.5
+        },
+        {
+          "name": "TypeScript / JavaScript",
+          "years": 2.5
+        },
+        {
+          "name": "Azure",
+          "years": 1
+        },
+        {
+          "name": "DevOps",
+          "years": 1
+        },
+        {
+          "name": "CI/CD",
+          "years": 2.5
+        }
+      ]
+    },
+    {
+      "company": "Mohamed Hilal Group (vía Ei Community)",
+      "position": "Lead Front-End Developer",
+      "startDate": "Abril 2020",
+      "endDate": "Marzo 2021",
+      "location": "Dubái, EAU (Remoto)",
+      "description": "• Desarrollé simulaciones gamificadas de Realidad Aumentada / Virtual (AR/VR) diseñadas para construir perfiles psicológicos sofisticados de consumidores.\n• Desarrollé experiencias inmersivas localizadas de nueva generación para el mercado de retail de lujo de Medio Oriente y África del Norte (MENA) utilizando Unity y C#.",
+      "skills": [
+        {
+          "name": "C#",
+          "years": 1
+        },
+        {
+          "name": "CI/CD",
+          "years": 1
+        }
+      ]
+    },
+    {
+      "company": "Mercedes-Benz (vía LTS Beratung)",
+      "position": "Java Backend Developer",
+      "startDate": "Noviembre 2018",
+      "endDate": "Abril 2020",
+      "location": "Área de Barcelona, España (Remoto)",
+      "description": "• Desarrollé y mantuve servicios de backend escalables como consultor externo para Mercedes-Benz, mejorando las capacidades de las APIs y test coverage (TDD).\n• Operé en una arquitectura moderna de DevOps y microservicios utilizando Java, Docker, Kubernetes y Jenkins.\n• Gestioné la monitorización integral y el registro de eventos de la aplicación mediante el stack ELK (Elasticsearch, Logstash, Kibana).",
+      "skills": [
+        {
+          "name": "Java",
+          "years": 1.5
+        },
+        {
+          "name": "Docker",
+          "years": 1.5
+        },
+        {
+          "name": "Kubernetes",
+          "years": 1.5
+        },
+        {
+          "name": "Elasticsearch",
+          "years": 1.5
+        },
+        {
+          "name": "CI/CD",
+          "years": 1.5
+        },
+        {
+          "name": "Jenkins",
+          "years": 1.5
+        },
+        {
+          "name": "Bash scripting",
+          "years": 1.5
+        },
+        {
+          "name": "DevOps",
+          "years": 1.5
+        },
+        {
+          "name": "React",
+          "years": 1
+        },
+        {
+          "name": "TypeScript / JavaScript",
+          "years": 1
+        },
+        {
+          "name": "SQL",
+          "years": 1
+        }
+      ]
+    },
+    {
+      "company": "Egara Optiminn",
+      "position": "Full Stack .NET Developer",
+      "startDate": "Septiembre 2018",
+      "endDate": "Noviembre 2018",
+      "location": "Área de Barcelona, España",
+      "description": "• Desarrollé aplicaciones web full-stack robustas con tecnología .NET, AngularJS, Azure y SQL para más de 50 usuarios en backoffice.\n• Diseñé APIs escalables, entregando a usuarios finales funcionalidades innovadoras y administrando pipelines CI/CD.",
+      "skills": [
+        {
+          "name": "C#",
+          "years": 0.25
+        },
+        {
+          "name": ".NET / .NET Core",
+          "years": 0.25
+        },
+        {
+          "name": "SQL",
+          "years": 0.25
+        },
+        {
+          "name": "CI/CD",
+          "years": 0.25
+        },
+        {
+          "name": "DevOps",
+          "years": 0.25
+        },
+        {
+          "name": "Bash scripting",
+          "years": 0.25
+        }
+      ]
+    },
+    {
+      "company": "Mundo Deportivo (vía E-TIC Sistemes)",
+      "position": "Java Backend Developer",
+      "startDate": "Junio 2018",
+      "endDate": "Septiembre 2018",
+      "location": "Área de Barcelona, España",
+      "description": "• Ayudé a mantener el software de publicación editorial utilizado por más de 50 periodistas deportivos en Mundo Deportivo (Grupo Godó).\n• Gestioné componentes backend de tráfico en arquitectura de medios masivos usando Java 7, Apache Velocity y EidosMedia Méthode.\n• Manejé flujos y procesos de integración continua usando Jenkins, Jira y Gitlab.",
+      "skills": [
+        {
+          "name": "Java",
+          "years": 0.25
+        },
+        {
+          "name": "CI/CD",
+          "years": 0.25
+        },
+        {
+          "name": "Jenkins",
+          "years": 0.25
+        }
+      ]
+    },
+    {
+      "company": "Tiendeo",
+      "position": ".NET Developer",
+      "startDate": "Junio 2017",
+      "endDate": "Septiembre 2017",
+      "location": "Área de Barcelona, España",
+      "description": "• Expandí funcionalidades de la API central de Tiendeo con C# y Postman.\n• Diseñé las bases arquitectónicas para el analizador y cargador de documentos PDF.\n• Programé flujos de trabajo eficientes para los desarrolladores internos y extensiones personalizadas para Visual Studio en C#.",
+      "skills": [
+        {
+          "name": "C#",
+          "years": 0.25
+        },
+        {
+          "name": ".NET / .NET Core",
+          "years": 0.25
+        },
+        {
+          "name": "Azure",
+          "years": 0.25
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universitat Politècnica de Catalunya",
+      "degree": "Grado en Ingeniería Informática",
+      "startDate": "2014",
+      "endDate": "2018"
+    },
+    {
+      "institution": "INS Manuel de Montsuar",
+      "degree": "Bachillerato Científico-Tecnológico",
+      "startDate": "2008",
+      "endDate": "2014"
+    }
+  ]
+}

@@ -232,7 +232,7 @@ const AchievementsSection = () => {
           </h3>
           <ul className="space-y-4 print:space-y-2 mt-3 print:mt-1">
             {resumeData.awards.map((award: any, i: number) => (
-              <li key={i} className="text-sm flex items-start gap-2">
+              <li key={i} className="text-sm flex items-start gap-2 print:break-inside-avoid-page">
                 <span className="text-brand-pink mt-0.5 shrink-0">■</span>
                 <div className="w-full">
                   <div className="flex justify-between items-start gap-2 mb-1.5">
@@ -281,16 +281,16 @@ export function ResumeCV() {
         </div>
 
         {/* DEDICATED PRINT VIEW - TWO COLUMN SIDEBAR */}
-        <div className="hidden print:grid max-w-[1200px] mx-auto px-6 pt-6 grid-cols-12 gap-8 items-start">
+        <div className="hidden print:block max-w-[1200px] mx-auto px-6 pt-6">
           {/* Left Column Sidebar */}
-          <div className="col-span-4 space-y-8 print:border-r print:border-slate-800 print:pr-6">
+          <div className="float-left w-[33%] space-y-8 pr-6 border-r border-slate-800 pb-12">
             <HeaderSection />
             <SkillsSection />
             <AchievementsSection />
           </div>
 
           {/* Right Main Content */}
-          <div className="col-span-8 space-y-6">
+          <div className="ml-[36%] w-[64%] space-y-6 block">
             <AboutSection />
             <ExperienceSection />
             <EducationSection />

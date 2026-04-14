@@ -7,15 +7,15 @@ import resumeData from "@/data/resume.json";
 
 const sectionVariants: any = {
   hidden: { opacity: 0, y: 30 },
-  visible: { 
-    opacity: 1, 
-    y: 0, 
-    transition: { duration: 0.6, ease: "easeOut" } 
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.6, ease: "easeOut" }
   }
 };
 
 const HeaderSection = () => (
-  <motion.header 
+  <motion.header
     initial={{ opacity: 0, y: -20 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.8, ease: "easeOut" }}
@@ -28,7 +28,7 @@ const HeaderSection = () => (
       <span className="print:hidden">Hi, I'm <br className="md:hidden" /></span>
       <span className="text-gradient drop-shadow-sm">{resumeData.personal.name}</span>
     </h1>
-    
+
     <div className="pt-4 flex flex-wrap print:flex-col print:flex-nowrap gap-4 print:gap-1.5 items-center justify-center md:justify-start print:items-start text-slate-300 text-sm md:text-base">
       {resumeData.personal.contact.email && (
         <a href={`mailto:${resumeData.personal.contact.email}`} className="flex items-center gap-2 hover:text-white transition-colors flat-card px-4 py-2 print:!p-0 print:!border-none print:!shadow-none print:!bg-transparent rounded-md flat-card-hover w-full md:w-auto">
@@ -56,7 +56,7 @@ const HeaderSection = () => (
 );
 
 const AboutSection = () => (
-  <motion.section 
+  <motion.section
     variants={sectionVariants} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}
     className="relative flat-card rounded-xl p-8 md:p-12 print:!p-0 print:!bg-transparent print:!border-none print:!shadow-none overflow-hidden group"
   >
@@ -73,30 +73,47 @@ const AboutSection = () => (
   </motion.section>
 );
 
-const SkillsSection = () => (
-  <motion.section 
-    variants={sectionVariants} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}
-  >
-    <h2 className="text-2xl print:text-lg font-bold mb-8 print:mb-3 pl-4 print:pl-0 flex items-center gap-3 print:gap-0 print:border-b print:border-slate-700 print:pb-2 print:text-slate-100">
-      <span className="w-8 print:hidden h-1 bg-gradient-to-r from-brand-pink to-brand-purple rounded-sm" />
-      Core Technologies
-    </h2>
-    <div className="flex flex-wrap gap-3 print:gap-1.5">
-      {resumeData.skills.map((skill) => (
-        <motion.div 
-          whileHover={{ scale: 1.05, y: -2 }}
-          key={skill} 
-          className="flat-card px-5 py-2.5 print:px-1.5 print:py-0.5 rounded-md text-sm print:text-[10px] print:font-bold font-semibold text-slate-200 hover:border-brand-cyan/50 hover:bg-brand-cyan/10 transition-all cursor-default shadow-md"
-        >
-          {skill}
-        </motion.div>
-      ))}
-    </div>
-  </motion.section>
-);
+const SkillsSection = () => {
+  const allSkills = new Map<string, number>();
+  resumeData.experience.forEach(job => {
+    if (job.skills) {
+      job.skills.forEach(skill => {
+        const current = allSkills.get(skill.name) || 0;
+        allSkills.set(skill.name, current + skill.years);
+      });
+    }
+  });
+
+  const globalSkills = Array.from(allSkills.entries())
+    .map(([name, years]) => ({ name, years: Math.ceil(years) }))
+    .sort((a, b) => b.years - a.years);
+
+  return (
+    <motion.section
+      variants={sectionVariants} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}
+    >
+      <h2 className="text-2xl print:text-lg font-bold mb-8 print:mb-3 pl-4 print:pl-0 flex items-center gap-3 print:gap-0 print:border-b print:border-slate-700 print:pb-2 print:text-slate-100">
+        <span className="w-8 print:hidden h-1 bg-gradient-to-r from-brand-pink to-brand-purple rounded-sm" />
+        Core Technologies
+      </h2>
+      <div className="flex flex-wrap gap-3 print:gap-1.5">
+        {globalSkills.map((skill) => (
+          <motion.div
+            whileHover={{ scale: 1.05, y: -2 }}
+            key={skill.name}
+            className="flat-card px-4 py-2 print:px-1.5 print:py-0.5 rounded-md text-sm print:text-[10px] print:font-bold font-semibold text-slate-200 hover:border-brand-cyan/50 hover:bg-brand-cyan/10 transition-all cursor-default shadow-md flex items-center gap-2 print:gap-1"
+          >
+            <span>{skill.name}</span>
+            <span className="text-xs print:text-[8px] text-brand-cyan/80 font-mono bg-black/20 print:bg-transparent px-1.5 py-0.5 rounded-sm">{skill.years} {skill.years === 1 ? 'yr' : 'yrs'}</span>
+          </motion.div>
+        ))}
+      </div>
+    </motion.section>
+  );
+};
 
 const ExperienceSection = () => (
-  <motion.section 
+  <motion.section
     variants={sectionVariants} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}
     className="print:break-inside-auto print:block"
   >
@@ -104,32 +121,43 @@ const ExperienceSection = () => (
       <div className="p-2 print:hidden rounded-md bg-brand-pink text-white"><Briefcase className="w-6 h-6" /></div>
       Experience
     </h2>
-    
-          <div className="space-y-8 print:space-y-3 relative before:absolute print:before:hidden before:inset-0 before:ml-4 before:-translate-x-px before:h-full before:w-1 before:bg-gradient-to-b before:from-brand-purple before:via-brand-pink before:to-transparent print:break-inside-auto print:block">
+
+    <div className="space-y-8 print:space-y-3 relative before:absolute print:before:hidden before:inset-0 before:ml-4 before:-translate-x-px before:h-full before:w-1 before:bg-gradient-to-b before:from-brand-purple before:via-brand-pink before:to-transparent print:break-inside-auto print:block">
       {resumeData.experience.map((job, i) => (
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: "-50px" }}
           transition={{ duration: 0.5, delay: i * 0.1 }}
-          key={i} 
+          key={i}
           className="relative pl-12 print:pl-0 group print:break-inside-avoid"
         >
           {/* Timeline dot */}
           <div className="absolute print:hidden left-[0.35rem] print:left-[0.2rem] top-8 print:top-5 w-6 h-6 print:w-3 print:h-3 -translate-y-1/2 rounded-sm border-4 print:border-[2px] border-slate-900 bg-brand-purple z-10 transition-transform duration-300 group-hover:scale-125 group-hover:bg-brand-cyan" />
-          
+
           {/* Card */}
           <div className="w-full flat-card p-6 print:p-4 rounded-xl group-hover:-translate-y-1 transition-transform duration-300">
             <div className="flex flex-col mb-3 print:mb-1.5">
               <span className="text-sm print:text-[10px] text-brand-cyan font-mono font-bold mb-1 print:mb-0.5">{job.startDate} - {job.endDate}</span>
               <h3 className="text-lg print:text-sm font-bold text-white uppercase tracking-wide print:leading-tight">{job.position}</h3>
               <h4 className="text-brand-pink font-semibold print:text-xs print:mt-0.5 print:leading-tight">{job.company}</h4>
-              {job.location && <span className="text-xs text-slate-400 mt-1 print:mt-0 print:hidden flex items-center gap-1"><MapPin className="w-3 h-3"/>{job.location}</span>}
+              {job.location && <span className="text-xs text-slate-400 mt-1 print:mt-0 print:hidden flex items-center gap-1"><MapPin className="w-3 h-3" />{job.location}</span>}
             </div>
             {job.description && (
-              <p className="text-sm print:text-[11px] text-slate-300 leading-relaxed mt-4 print:mt-1.5">
-                {job.description}
-              </p>
+              <div className="text-sm print:text-[11px] text-slate-300 leading-relaxed mt-4 print:mt-1.5 space-y-1.5">
+                {job.description.split('\n').map((line, idx) => (
+                  <p key={idx}>{line}</p>
+                ))}
+              </div>
+            )}
+            {job.skills && (
+              <div className="mt-4 flex flex-wrap gap-2 print:mt-1.5 print:gap-1">
+                {job.skills.map((s, idx) => (
+                  <span key={idx} className="text-xs print:text-[8px] font-mono text-brand-cyan bg-brand-cyan/10 px-2 py-0.5 rounded print:px-1 print:bg-transparent print:border print:border-brand-cyan/30">
+                    {s.name}
+                  </span>
+                ))}
+              </div>
             )}
           </div>
         </motion.div>
@@ -139,7 +167,7 @@ const ExperienceSection = () => (
 );
 
 const EducationSection = () => (
-  <motion.section 
+  <motion.section
     variants={sectionVariants} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}
   >
     <h2 className="text-2xl print:text-xl font-bold mb-6 print:mb-3 flex items-center gap-3 print:gap-0 print:border-b print:border-slate-700 print:pb-2 print:text-slate-100">
@@ -159,7 +187,7 @@ const EducationSection = () => (
 );
 
 const AchievementsSection = () => (
-  <motion.section 
+  <motion.section
     variants={sectionVariants} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}
   >
     <h2 className="text-2xl print:text-xl font-bold mb-6 print:mb-3 flex items-center gap-3 print:gap-0 print:border-b print:border-slate-700 print:pb-2 print:text-slate-100">
@@ -201,7 +229,7 @@ const AchievementsSection = () => (
 export function ResumeCV() {
   return (
     <div className="relative min-h-screen print:min-h-0 print:h-auto print:overflow-visible pb-24 text-slate-100 selection:bg-brand-pink selection:text-white">
-      
+
       {/* STANDARD WEB VIEW (Hidden heavily on print) */}
       <div className="max-w-5xl mx-auto px-6 pt-24 space-y-24 print:hidden">
         <HeaderSection />
@@ -222,7 +250,7 @@ export function ResumeCV() {
           <SkillsSection />
           <AchievementsSection />
         </div>
-        
+
         {/* Right Main Content */}
         <div className="col-span-8 space-y-6">
           <AboutSection />

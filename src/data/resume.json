@@ -1,7 +1,7 @@
 {
   "personal": {
     "name": "Víctor Alcázar",
-    "title": "Full Stack & AI Engineer",
+    "title": "DevOps & AI Engineer",
     "location": "Girona Area, Spain",
     "contact": {
       "email": "",
@@ -10,26 +10,8 @@
       "portfolio": "tofumarinado.github.io/umbreon",
       "github": "github.com/tofumarinado"
     },
-    "summary": "Detail-oriented Full Stack & AI Engineer with over 6 years of enterprise experience spanning cloud infrastructure, backend services, and modern web applications. Proven track record of architecting scalable systems and leading technical initiatives for global entities such as Mercedes-Benz and Zurich Insurance Group. Specializes in C#, React, Java, Azure, and integrating state-of-the-art technologies like Large Language Models (LLMs) into production architectures."
+    "summary": "Detail-oriented DevOps & AI Engineer with over 8 years of enterprise experience spanning cloud infrastructure, backend services, and modern web applications.\nProven track record of architecting scalable DevOps and microservices systems, and leading technical initiatives for global entities such as Mercedes-Benz and Zurich Insurance Group.\nSpecializes in C#, React, Java, Azure, and integrating state-of-the-art technologies like Large Language Models (LLMs) and Generative AI into production architectures.\nDedicated to clean code, Agile methodologies, and Continuous Integration / Continuous Deployment (CI/CD) pipelines."
   },
-  "skills": [
-    "C#",
-    "React",
-    ".NET",
-    "Java",
-    "Generative AI / LLMs",
-    "Prompt Engineering",
-    "Full-Stack Architecture",
-    "Azure",
-    "Docker",
-    "Kubernetes",
-    "MongoDB",
-    "SQL",
-    "Elasticsearch",
-    "Jenkins",
-    "Git",
-    "Postman"
-  ],
   "languages": [
     {
       "name": "Spanish",
@@ -52,7 +34,7 @@
     "Prompt Engineering for ChatGPT",
     "ITIL® 4 Foundation",
     "Introduction to Microsoft Azure Cloud Services",
-    "Azure Devops: Introduction to CI/CD with Visual Studio"
+    "Azure DevOps: Introduction to CI/CD with Visual Studio"
   ],
   "awards": [
     {
@@ -78,7 +60,57 @@
       "startDate": "November 2023",
       "endDate": "Present",
       "location": "Barcelona Area, Spain (Remote)",
-      "description": "Spearheaded an innovative AI initiative for Mercedes-Benz, leading the technical architecture and prototype development. Following external contractor reductions at Mercedes-Benz, transitioned to an internal role at LTS Beratung to restructure and modernize enterprise documentation systems utilizing Large Language Models (LLMs) and advanced prompt engineering."
+      "description": "• Spearheaded an innovative AI initiative for Mercedes-Benz, leading the technical architecture and prototype development.\n• Restructured and modernized enterprise documentation systems, utilizing Large Language Models (LLMs) and advanced prompt engineering.\n• Deployed scalable Generative AI and Python-based solutions via Docker and Kubernetes.",
+      "skills": [
+        {
+          "name": "Machine Learning (ML)",
+          "years": 1.5
+        },
+        {
+          "name": "Artificial Intelligence (AI)",
+          "years": 1.5
+        },
+        {
+          "name": "Python",
+          "years": 2.5
+        },
+        {
+          "name": "Bash scripting",
+          "years": 2.5
+        },
+        {
+          "name": "Docker",
+          "years": 2.5
+        },
+        {
+          "name": "Kubernetes",
+          "years": 2.5
+        },
+        {
+          "name": "Ansible",
+          "years": 2.5
+        },
+        {
+          "name": "Cloud Computing",
+          "years": 2.5
+        },
+        {
+          "name": "CI/CD",
+          "years": 2.5
+        },
+        {
+          "name": "TypeScript / JavaScript",
+          "years": 2.5
+        },
+        {
+          "name": "AWS",
+          "years": 2.5
+        },
+        {
+          "name": "DevOps",
+          "years": 2.5
+        }
+      ]
     },
     {
       "company": "Zurich Insurance Group",
@@ -86,15 +118,47 @@
       "startDate": "March 2021",
       "endDate": "November 2023",
       "location": "Barcelona Area, Spain (Remote)",
-      "description": "Initially hired externally through AV Group before successfully transitioning to an internal role at ServiZurich (the technological branch of Zurich). Acted as an ITIL Change Manager for the Service Management team alongside the Data Analysis Development team. Directed deployment lifecycles, delivered operational infrastructure, and supported end-users. Built internal applications and tools utilizing React, Git, .NET, and Azure."
+      "description": "• Built and maintained 2 internal applications and tools utilizing React and TypeScript / JavaScript, accelerating daily operational workflows for over 100 end-users.\n• Acted as an ITIL Change Manager for the Service Management team alongside the Development team.\n• Directed deployment lifecycles, delivered operational infrastructure, and helped reduced resolving times for end-user support tickets.",
+      "skills": [
+        {
+          "name": "React",
+          "years": 2.5
+        },
+        {
+          "name": "TypeScript / JavaScript",
+          "years": 2.5
+        },
+        {
+          "name": "Azure",
+          "years": 1
+        },
+        {
+          "name": "DevOps",
+          "years": 1
+        },
+        {
+          "name": "CI/CD",
+          "years": 2.5
+        }
+      ]
     },
     {
       "company": "Mohamed Hilal Group (via Ei Community)",
-      "position": "Digital Interaction & Lead Developer",
+      "position": "Lead Front-End Developer",
       "startDate": "April 2020",
       "endDate": "March 2021",
       "location": "Dubai, UAE (Remote)",
-      "description": "Developed localized, next-generation immersive experiences for the high-end retail MENA market. Engineered gamified AR/VR test simulations designed to build sophisticated psychological profiles of consumers, integrating early-stage AI concepts to tailor luxury buyer journeys."
+      "description": "• Engineered gamified Augmented Reality / Virtual Reality (AR/VR) test simulations designed to build sophisticated psychological profiles of consumers.\n• Developed localized, next-generation immersive experiences for the high-end retail MENA market using Unity and C#.\n• Integrated early-stage AI concepts to tailor luxury buyer journeys, improving consumer engagement metrics.",
+      "skills": [
+        {
+          "name": "C#",
+          "years": 1
+        },
+        {
+          "name": "CI/CD",
+          "years": 1
+        }
+      ]
     },
     {
       "company": "Mercedes-Benz (via LTS Beratung)",
@@ -102,23 +166,109 @@
       "startDate": "November 2018",
       "endDate": "April 2020",
       "location": "Barcelona Area, Spain (Remote)",
-      "description": "Developed and maintained backend services as an external consultant for Mercedes-Benz. Operated in a modern DevOps and microservices environment utilizing Java, Docker, Kubernetes, Jenkins, and the ELK stack (Elasticsearch, Kibana)."
+      "description": "• Developed and maintained scalable backend services as an external consultant for Mercedes-Benz, improving API capabilities and test coverage.\n• Operated in a modern DevOps and microservices architecture utilizing Java, Docker, Kubernetes, and Jenkins.\n• Managed comprehensive application logging and monitoring via the ELK stack (Elasticsearch, Logstash, Kibana).",
+      "skills": [
+        {
+          "name": "Java",
+          "years": 1.5
+        },
+        {
+          "name": "Docker",
+          "years": 1.5
+        },
+        {
+          "name": "Kubernetes",
+          "years": 1.5
+        },
+        {
+          "name": "Elasticsearch",
+          "years": 1.5
+        },
+        {
+          "name": "CI/CD",
+          "years": 1.5
+        },
+        {
+          "name": "Jenkins",
+          "years": 1.5
+        },
+        {
+          "name": "Bash scripting",
+          "years": 1.5
+        },
+        {
+          "name": "DevOps",
+          "years": 1.5
+        },
+        {
+          "name": "React",
+          "years": 1
+        },
+        {
+          "name": "TypeScript / JavaScript",
+          "years": 1
+        },
+        {
+          "name": "SQL",
+          "years": 1
+        }
+      ]
     },
     {
       "company": "Egara Optiminn",
-      "position": ".NET Developer",
+      "position": "Full Stack .NET Developer",
       "startDate": "September 2018",
       "endDate": "November 2018",
       "location": "Barcelona Area, Spain",
-      "description": "Developed web applications built with a .NET, MongoDB, Angular.js, Azure and SQL based stack."
+      "description": "• Developed robust full-stack web applications built with a .NET, MongoDB, AngularJS, Azure, and SQL-based technology stack.\n• Designed scalable cross-platform APIs, optimizing query response rates for client data retrieval, and managing CI/CD pipelines.",
+      "skills": [
+        {
+          "name": "C#",
+          "years": 0.25
+        },
+        {
+          "name": ".NET / .NET Core",
+          "years": 0.25
+        },
+        {
+          "name": "SQL",
+          "years": 0.25
+        },
+        {
+          "name": "CI/CD",
+          "years": 0.25
+        },
+        {
+          "name": "DevOps",
+          "years": 0.25
+        },
+        {
+          "name": "Bash scripting",
+          "years": 0.25
+        }
+      ]
     },
     {
       "company": "Mundo Deportivo (via E-TIC Sistemes)",
-      "position": "Java Developer",
+      "position": "Java Backend Developer",
       "startDate": "June 2018",
       "endDate": "September 2018",
       "location": "Barcelona Area, Spain",
-      "description": "Developed and maintained the core editorial publishing software utilized by sports journalists at Mundo Deportivo (Grupo Godó). Acquired domain knowledge in digital press, high-traffic media architectures, and editorial workflows. Technologies used: Java 7, Apache Velocity, EidosMedia Méthode, Jenkins, Jira, Gitlab."
+      "description": "• Maintained the core editorial publishing software utilized by 50+ sports journalists at Mundo Deportivo (Grupo Godó).\n• Engineered backend components in a high-traffic media architecture utilizing Java 7, Apache Velocity, and EidosMedia Méthode.\n• Managed continuous integration workflows using Jenkins, Jira, and Gitlab.",
+      "skills": [
+        {
+          "name": "Java",
+          "years": 0.25
+        },
+        {
+          "name": "CI/CD",
+          "years": 0.25
+        },
+        {
+          "name": "Jenkins",
+          "years": 0.25
+        }
+      ]
     },
     {
       "company": "Tiendeo",
@@ -126,7 +276,21 @@
       "startDate": "June 2017",
       "endDate": "September 2017",
       "location": "Barcelona Area, Spain",
-      "description": "Summer internship. Expanded existing functionalities of Tiendeo's API using C# and Postman. Added new functions to Analytics service. Created bases for a new PDF-parsing and uploading service. Developed a Visual Studio extension using C#."
+      "description": "• Expanded existing functionalities of Tiendeo's core API using C# and Postman, increasing analytics data coverage.\n• Created the foundational architecture for a new PDF-parsing and uploading service utilized by the product team.\n• Developed a custom Visual Studio extension using C# to accelerate internal developer workflows.",
+      "skills": [
+        {
+          "name": "C#",
+          "years": 0.25
+        },
+        {
+          "name": ".NET / .NET Core",
+          "years": 0.25
+        },
+        {
+          "name": "Azure",
+          "years": 0.25
+        }
+      ]
     }
   ],
   "education": [

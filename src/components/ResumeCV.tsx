@@ -27,12 +27,13 @@ const HeaderSection = () => {
       transition={{ duration: 0.8, ease: "easeOut" }}
       className="space-y-6 print:space-y-4 text-center md:text-left"
     >
-      <div className="inline-block mb-4 print:mb-1 px-4 py-1.5 print:py-0.5 print:px-2 rounded-sm border border-brand-cyan/50 dark:border-brand-cyan/30 bg-brand-cyan/5 dark:bg-brand-cyan/10 text-brand-cyan text-sm print:text-[10px] font-bold tracking-wide uppercase">
+      <div className="print:!p-0 print:!border-none print:!shadow-none print:!bg-transparent inline-block mb-4 print:mb-1 px-4 py-1.5 print:py-0.5 print:px-2 rounded-sm border border-brand-blue/50 dark:border-brand-cyan/30 bg-brand-blue/5 dark:bg-brand-cyan/10 text-brand-blue dark:text-brand-cyan text-sm print:text-[10px] font-bold tracking-wide uppercase">
         {resumeData.personal.title}
       </div>
       <h1 className="text-5xl md:text-7xl print:text-4xl font-extrabold tracking-tight print:leading-tight text-slate-900 dark:text-white">
         <span className="print:hidden">Hi, I'm <br className="md:hidden" /></span>
-        <span className="text-gradient drop-shadow-sm">{resumeData.personal.name}</span>
+        <span className="text-gradient drop-shadow-sm print:hidden">{resumeData.personal.name}</span>
+        <span className="hidden text-slate-900 dark:text-slate-100 drop-shadow-sm print:block">{resumeData.personal.name}</span>
       </h1>
 
       <div className="pt-4 flex flex-wrap print:flex-col print:flex-nowrap gap-4 print:gap-1.5 items-center justify-center md:justify-start print:items-start text-slate-600 dark:text-slate-300 text-sm md:text-base">
@@ -74,7 +75,7 @@ const AboutSection = () => {
         <div className="p-2 print:hidden rounded-md bg-brand-purple text-white"><Code className="w-6 h-6" /></div>
         {resumeData.ui.about}
       </h2>
-      <div className="text-slate-700 dark:text-slate-300 leading-relaxed space-y-4 print:space-y-2 md:text-lg print:text-[13px]">
+      <div className="text-slate-700 dark:text-slate-300 leading-relaxed space-y-4 print:space-y-2 md:text-lg print:text-[11px]">
         {resumeData.personal.summary.split('\n').map((paragraph: string, i: number) => (
           <p key={i}>{paragraph}</p>
         ))}
@@ -115,7 +116,7 @@ const SkillsSection = () => {
             className="flat-card px-4 py-2 print:px-1.5 print:py-0.5 rounded-md text-sm print:text-[10px] font-semibold text-slate-800 dark:text-slate-200 hover:border-brand-cyan/50 hover:bg-brand-cyan/5 dark:hover:bg-brand-cyan/10 transition-all cursor-default shadow-md flex items-center gap-2 print:gap-1 print:border print:border-slate-300"
           >
             <span>{skill.name}</span>
-            <span className="text-xs print:text-[8px] text-slate-500 dark:text-brand-cyan/80 font-mono bg-slate-100 dark:bg-black/20 px-1.5 py-0.5 rounded-sm print:bg-transparent print:border print:border-slate-300">{skill.years} {skill.years === 1 ? 'yr' : 'yrs'}</span>
+            <span className="text-xs print:!p-0 print:!bg-transparent print:!border-none print:text-[8px] text-slate-500 dark:text-brand-cyan/80 font-mono bg-slate-100 dark:bg-black/20 px-1.5 py-0.5 rounded-sm print:bg-transparent print:border print:border-slate-300">{skill.years} {skill.years === 1 ? 'yr' : 'yrs'}</span>
           </motion.div>
         ))}
       </div>
@@ -192,7 +193,7 @@ const EducationSection = () => {
       </h2>
       <div className="space-y-4 print:space-y-2">
         {resumeData.education.map((edu: any, i: number) => (
-          <div key={i} className="flat-card p-6 print:p-3 print:px-4 rounded-xl flat-card-hover transition-colors print:break-inside-avoid print:border-slate-300">
+          <div key={i} className="flat-card print:!p-0 print:!bg-transparent print:!border-none print:!shadow-none p-6 print:p-3 print:px-4 rounded-xl flat-card-hover transition-colors print:break-inside-avoid print:border-slate-300">
             <span className="text-xs print:text-[10px] text-brand-blue dark:text-brand-cyan font-mono font-bold mb-1 print:mb-0 block">{edu.startDate} - {edu.endDate}</span>
             <h3 className="font-extrabold text-lg print:text-sm lg:text-lg mb-1 leading-snug text-slate-900 dark:text-white">{edu.degree}</h3>
             <p className="text-slate-600 dark:text-slate-400 text-sm print:text-[11px] font-medium">{edu.institution}</p>
@@ -208,6 +209,7 @@ const AchievementsSection = () => {
   return (
     <motion.section
       variants={sectionVariants} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}
+      className="print:break-inside-avoid"
     >
       <h2 className="text-2xl print:text-xl font-bold mb-6 print:mb-3 flex items-center gap-3 print:gap-0 border-b border-slate-300 dark:border-slate-700 pb-2 text-slate-900 dark:text-slate-100">
         <div className="p-2 print:hidden rounded-md bg-yellow-500 text-white"><Award className="w-6 h-6" /></div>
@@ -233,7 +235,7 @@ const AchievementsSection = () => {
           <ul className="space-y-4 print:space-y-2 mt-3 print:mt-1">
             {resumeData.awards.map((award: any, i: number) => (
               <li key={i} className="text-sm flex items-start gap-2 print:break-inside-avoid-page">
-                <span className="text-brand-purple dark:text-brand-pink mt-0.5 shrink-0">■</span>
+                <span className="text-brand-purple dark:text-brand-pink print:text-[11px] mt-1 print:mt-0">■</span>
                 <div className="w-full">
                   <div className="flex justify-between items-start gap-2 mb-1.5">
                     <span className="text-slate-900 dark:text-slate-200 font-bold leading-tight">{award.title}</span>
@@ -302,11 +304,12 @@ export function ResumeCV() {
         </div>
 
         {/* DEDICATED PRINT VIEW */}
-        <div className="hidden print:block max-w-[1200px] mx-auto px-6 pt-6">
+        <div className="hidden print:block max-w-[1200px] mx-auto px-6 pt-6 print:py-12">
           {/* Left Column Sidebar */}
           <div className="float-left w-[33%] space-y-8 pr-6 border-r border-slate-300 dark:border-slate-700 pb-12">
             <HeaderSection />
             <SkillsSection />
+            <EducationSection />
             <AchievementsSection />
           </div>
 
@@ -314,7 +317,6 @@ export function ResumeCV() {
           <div className="ml-[36%] w-[64%] space-y-6 block">
             <AboutSection />
             <ExperienceSection />
-            <EducationSection />
           </div>
         </div>
 

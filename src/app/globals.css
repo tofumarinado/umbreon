@@ -77,7 +77,7 @@ body {
    ========================================= */
 @media print {
   @page {
-    margin: 0;
+    margin: 5mm 0;
     size: A4 portrait;
   }
 

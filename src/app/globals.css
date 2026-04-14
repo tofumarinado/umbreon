@@ -10,27 +10,58 @@
   --color-brand-cyan: #06b6d4;
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 body {
-  background-color: #0f172a; /* slate-900 */
-  color: #f8fafc; /* slate-50 */
+  background-color: #f8fafc;
+  color: #0f172a;
   font-family: var(--font-sans);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark body {
+  background-color: #0f172a;
+  /* slate-900 */
+  color: #f8fafc;
+  /* slate-50 */
 }
 
 ::selection {
   background-color: rgba(236, 72, 153, 0.4);
+  color: #000;
+}
+
+.dark ::selection {
   color: #fff;
 }
 
 /* Flat utilities */
 .flat-card {
-  background-color: #1e293b; /* slate-800 */
-  border: 1px solid #334155; /* slate-700 */
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  /* slate-200 */
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
+.dark .flat-card {
+  background-color: #1e293b;
+  /* slate-800 */
+  border: 1px solid #334155;
+  /* slate-700 */
+}
+
 .flat-card-hover:hover {
-  background-color: #334155; /* slate-700 */
-  border-color: #475569; /* slate-600 */
+  background-color: #f1f5f9;
+  /* slate-100 */
+  border-color: #cbd5e1;
+  /* slate-300 */
+}
+
+.dark .flat-card-hover:hover {
+  background-color: #334155;
+  /* slate-700 */
+  border-color: #475569;
+  /* slate-600 */
 }
 
 .text-gradient {
@@ -45,18 +76,17 @@ body {
    PRINT VIEW OVERRIDES
    ========================================= */
 @media print {
-  @page { margin: 0; size: A4 portrait; }
-  
-  html {
-    background-color: #0f172a !important; 
-    height: 100% !important;
-    min-height: 100% !important;
+  @page {
+    margin: 0;
+    size: A4 portrait;
   }
 
-  body, html {
+  html,
+  body {
+    height: 100% !important;
+    min-height: 100% !important;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
-    color: #f8fafc !important;
   }
 
   /* Force all framer-motion elements to immediately appear */
@@ -71,6 +101,14 @@ body {
   }
 
   /* Prevent awkward page breaks */
-  h1, h2, h3 { break-after: avoid !important; }
-  .group, .grid > div { break-inside: avoid !important; }
+  h1,
+  h2,
+  h3 {
+    break-after: avoid !important;
+  }
+
+  .group,
+  .grid>div {
+    break-inside: avoid !important;
+  }
 }
